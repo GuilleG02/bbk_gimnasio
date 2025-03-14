@@ -1,0 +1,112 @@
+
+body {
+    font-family: "Arial"; 
+    font-size: 14px; 
+}
+
+.tabla {
+    width: 60%; 
+    max-width: 600px; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Arial, sans-serif; 
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px; 
+}
+
+th {
+    background-color: #F1F1F1;
+}
+
+td[colspan="2"], td[colspan="3"] {
+    text-align: left; 
+}
+
+       
+header{
+    margin-bottom: 3%;
+}
+
+        .menu-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .menu-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .menu-button:hover {
+            background-color: #0056b3;
+        }
+
+        .menu-dropdown {
+            display: none;
+            position: absolute;
+            background-color: white;
+            box-shadow: 0px 4px 8px black;
+            min-width: 150px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .menu-dropdown a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+
+        .menu-dropdown a:hover {
+            background-color: #f1f1f1;
+        }
+
+        
+        .menu-container:hover .menu-dropdown {
+            display: block;
+        }
+
+
+
+
+
+.seccion{
+
+    text-align: center;
+}
+
+.espacio{
+    margin-bottom: 5%;
+}
+
+#gatito{
+    width: 30%;
+    height: 30%;
+}
+
+#video{
+    width: 30%;
+    height: 30%;
+}
+
+
+
+
+
+
+
+
+
+
